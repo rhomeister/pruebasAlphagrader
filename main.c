@@ -18,5 +18,10 @@ int main() {
     scanf("%i%*c", &a);
     scanf("%i%*c", &b);
     scanf("%i%*c", &c);
-    printf("%i", a / b);
+    printf("%i\n", a / b);
+    printf("%i\n", a % b);
+    printf("%i\n", a / b - c);
+    printf("%i\n", a / (b - c));
+
+    return 0;
 }
